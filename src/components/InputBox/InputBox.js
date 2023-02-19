@@ -19,7 +19,7 @@ const InputBox = () => {
    return ( 
       <div className={style.outer_div}>
          <input onChange={typeHandler} className={style.input_style} type="text" placeholder='Input Text' />
-         <button className={style.button_style} type="button" onClick={clickHandler} >{x}</button>
+         <button className={style.button_style} type="button" onClick={clickHandler} >ADD</button>
       </div>
    );
 }

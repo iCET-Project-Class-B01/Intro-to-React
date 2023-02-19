@@ -9,9 +9,9 @@ const OuterWrapper = () => {
       <div className={style.outer}>
         <Title />
         <InputBox />
-        <WorkRecord />
-        <WorkRecord />
-        <WorkRecord />
+        <WorkRecord title="Sample Title One" />
+        <WorkRecord title="Working with useState" />
+        <WorkRecord title="Learning ReactJS" />
       </div>
    );
 }
