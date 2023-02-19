@@ -9,6 +9,10 @@
 
 }
 
+.outer_div{
+   margin-bottom: 2rem;
+}
+
 .input_style{
    font-size: 1.5rem;
    padding: 5px;
