@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './WorkRecord.module.css';
-
+ 
 const WorkRecord = () => {
    return (
       <div className={style.outer_div}>
