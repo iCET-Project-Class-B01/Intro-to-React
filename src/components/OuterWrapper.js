@@ -1,10 +1,10 @@
 import React from 'react';
 import Title from './Title/Title';
-import 
+import style from './OuterWrapper.module.css';
 
 const OuterWrapper = () => {
    return (
-      <div >
+      <div className={style.outer}>
         <Title /> 
       </div>
    );
