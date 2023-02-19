@@ -9,3 +9,13 @@
    align-items: center;
    margin: 1rem 0;
 }
+
+.button_style{
+   background-color: #c0392b;
+   color: white;
+   font-weight: 700;
+   font-size: 1rem;
+   border: 0px;
+   border-radius: 5px;
+   padding: 8px;
+}

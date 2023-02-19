@@ -6,7 +6,7 @@ const WorkRecord = () => {
       <div className={style.outer_div}>
          <input type="checkbox" />
          <h3>This is sample work</h3>
-         <button type="button">DEL</button>
+         <button className={style.button_style} type="button">DEL</button>
       </div>
    );
 }
